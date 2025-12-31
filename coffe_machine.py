@@ -171,8 +171,7 @@ def start_machine():
                 if coffe_possible(coffee_type):
                     coffeemaker(coffee_type)
                 else:
-                    print("Machine is on 'PAUSE' mode for maintenance!")
-                    break
+                    print("Chose an other coffee please!")
         except CoffeeTypeError as e:
             print(f"{e}")
 
