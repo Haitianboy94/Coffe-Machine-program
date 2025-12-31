@@ -18,7 +18,7 @@ class CoffeeError(Exception):
 class CoffeeTypeError(CoffeeError):
     def __init__(self, name_coffe):
         self.name_coffee = name_coffe
-        super().__init__(f"Sorry! we don't have {coffee_type} available!")
+        super().__init__(f"Sorry! we don't have {name_coffe} available!")
 
 
 stat_espresso = {
